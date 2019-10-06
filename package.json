@@ -29,13 +29,13 @@
   "author": "John J Czaplewski",
   "license": "CC0",
   "dependencies": {
-    "geojson-precision": "^0.4.0",
-    "topojson": "~1.6.26",
-    "wkx": "~0.2.0"
+    "geojson-precision": "^1.0.0",
+    "topojson-server": "~3.0.1",
+    "wkx": "~0.4.8"
   },
   "devDependencies": {
-    "async": "~2.0.0",
-    "geojsonhint": "^2.0.0-beta",
-    "pg": "^6.0.2"
+    "@mapbox/geojsonhint": "^3.0.0",
+    "async": "~3.1.0",
+    "pg": "^7.12.1"
   }
 }

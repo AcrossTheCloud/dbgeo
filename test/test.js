@@ -2,7 +2,7 @@ var pg = require('pg')
 var credentials = require('./credentials')
 var dbgeo = require('../lib/dbgeo')
 var series = require('async/series')
-var geojsonhint = require('geojsonhint')
+var geojsonhint = require('@mapbox/geojsonhint')
 var client = new pg.Client('postgres://' + credentials.user + '@' + credentials.host + ':' + credentials.port + '/' + credentials.database)
 
 // Connect to postgres
